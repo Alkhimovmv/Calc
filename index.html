@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ru-RU">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="css/main.css">
+   <title>Calculator</title>
+</head>
+<body>
+   <div class="wrapper">
+       <div class="maincontent">
+           <div class="container">
+               <main class="page">
+                   <div class="container">
+                       <div class="page__left">
+                           <div class="calc-wrapper">
+                               <div class="calc">
+                                   <div class="calc__display">
+                                       <input disabled type="text" value="0" id="display" name="" class="calc__display-input" placeholder="00000000000000">
+                                   </div>
+                                   <div class="calc__buttons">
+                                       <table class="calc__table">
+                                           <tr class="calc__buttons-row">
+                                               <td>
+                                                   <button type="button" id="ce" class="clear_btn btn btn_default btn_hover_red">ce</button>
+                                               </td>
+                                               <td>
+                                                   <button type="button" id="c" class="clear_btn btn btn_default btn_hover_red">c</button>
+                                               </td>
+                                               <td>
+                                                   <button value="Деление" type="button" class="operation btn btn_default btn_hover_blue">/</button>
+                                               </td>
+                                               <td>
+                                                   <button value="Умножение" type="button" class="operation btn btn_default btn_hover_blue">*</button>
+                                               </td>
+                                           </tr>
+                                           <tr class="calc__buttons-row">
+                                               <td>
+                                                   <button type="button" class="number btn btn_default">7</button>
+                                               </td>
+                                               <td>
+                                                   <button type="button" class="number btn btn_default">8</button>
+                                               </td>
+                                               <td>
+                                                   <button type="button" class="number btn btn_default">9</button>
+                                               </td>
+                                               <td>
+                                                   <button value="Вычитание" type="button" class="operation btn btn_default btn_hover_blue">-</button>
+                                               </td>
+                                           </tr>
+                                           <tr class="calc__buttons-row">
+                                               <td>
+                                                   <button type="button" class="number btn btn_default">4</button>
+                                               </td>
+                                               <td>
+                                                   <button type="button" class="number btn btn_default">5</button>
+                                               </td>
+                                               <td>
+                                                   <button type="button" class="number btn btn_default">6</button>
+                                               </td>
+                                               <td>
+                                                   <button value="Сложение" type="button" class="operation btn btn_default btn_hover_blue">+</button>
+                                               </td>
+                                           </tr>
+                                           <tr class="calc__buttons-row">
+                                               <td>
+                                                   <button type="button" class="number btn btn_default">1</button>
+                                               </td>
+                                               <td>
+                                                   <button type="button" class="number btn btn_default">2</button>
+                                               </td>
+                                               <td>
+                                                   <button type="button" class="number btn btn_default">3</button>
+                                               </td>
+                                               <td rowspan="2">
+                                                   <button value="Результат" type="button" class="operation btn btn_default btn_tall btn_hover_blue">=</button>
+                                               </td>
+                                           </tr>
+                                           <tr class="calc__buttons-row">
+                                               <td colspan="2">
+                                                   <button type="button" class="number btn btn_default btn_long">0</button>
+                                               </td>
+                                               <td>
+                                                   <button type="button" id="decimal" class="btn btn_default">.</button>
+                                               </td>
+                                           </tr>
+                                       </table>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="page__right">
+                           <h1 class="title">
+                               Простой Калькулятор
+                           </h1>
+                           <div class="about">
+                               <div class="about__btn">
+                                   <a href="#" id="howWorkBtn" class="about__btn-link">
+                                       Как это работает?
+                                   </a>
+                               </div>
+                               <div>
+                                   <ul id="operationsList">
+
+                                   </ul>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </main>
+           </div>
+       </div>
+   </div> 
+   <script src="js/main.js"></script>
+</body>
+</html>
