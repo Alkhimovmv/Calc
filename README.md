@@ -4,5 +4,5 @@
 
 ***Цель***: Изучить основы **JavaScript**.
 
-## Посмотреть по ссылке: [CHOCCO](https://alkhimovmv.github.io/Calc/)
-![chocco](img/screenshot.PNG "demo calc")
+## Посмотреть по ссылке: [Calc](https://alkhimovmv.github.io/Calc/)
+![Calc](img/screenshot.PNG "demo calc")
